@@ -7,15 +7,16 @@ O app utiliza a **API do OpenWeatherMap** para buscar dados meteorológicos prec
 
 ## 🚀 Funcionalidades
 
-✅ Buscar o clima atual de qualquer cidade digitada
-✅ Mostrar a **previsão dos próximos 5 dias**
+✅ Buscar o clima atual de qualquer cidade digitada<br>
+✅ Mostrar a **previsão dos próximos 5 dias**<br>
 ✅ Exibir informações detalhadas:
 
 * 🌡️ Temperatura atual e sensação térmica
 * 💧 Umidade do ar
 * 🌬️ Pressão atmosférica
-  ✅ Exibir **ícones do clima** dinâmicos
-  ✅ Mostrar a **data atual**
+  <br><br>
+  ✅ Exibir **ícones do clima** dinâmicos<br>
+  ✅ Mostrar a **data atual**<br>
   ✅ Interface simples, leve e responsiva
 
 ---
