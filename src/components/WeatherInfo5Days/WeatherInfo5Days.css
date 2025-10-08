@@ -1,0 +1,59 @@
+:root {
+  --title-color: #fff;
+  --weather-items-color: rgba(255, 255, 255, 0.2);
+  --weather-items-text-color: #fff;
+}
+
+.container-weather-5days {
+  padding: 12px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: var(--title-color);
+}
+
+.weather-list {
+  display: flex;
+  gap: 6px;
+  padding: 12px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.weather-item {
+  background-color: var(--weather-items-color);
+  padding: 18px;
+  color: var(--weather-items-text-color);
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s all ease;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+.weather-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+.weather-item p {
+  font-size: 12px;
+}
+
+.forecast-day {
+  text-transform: uppercase;
+  border-bottom: 1px solid #acacac;
+  font-size: 14px !important;
+  margin-bottom: 6px;
+}
+
+.forecast-description {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .weather-list {
+    flex-direction: column;
+  }
+  .weather-item {
+    width: 100%;
+  }
+}
