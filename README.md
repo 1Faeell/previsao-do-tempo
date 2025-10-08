@@ -1,16 +1,40 @@
-# React + Vite
+# 🌦️ App de Previsão do Tempo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo moderno de previsão do tempo desenvolvido em **React**, que exibe informações climáticas em tempo real e a **previsão dos próximos 5 dias** com base na cidade digitada pelo usuário.
+O app utiliza a **API do OpenWeatherMap** para buscar dados meteorológicos precisos e atualizados.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## React Compiler
+✅ Buscar o clima atual de qualquer cidade digitada
+✅ Mostrar a **previsão dos próximos 5 dias**
+✅ Exibir informações detalhadas:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🌡️ Temperatura atual e sensação térmica
+* 💧 Umidade do ar
+* 🌬️ Pressão atmosférica
+  ✅ Exibir **ícones do clima** dinâmicos
+  ✅ Mostrar a **data atual**
+  ✅ Interface simples, leve e responsiva
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Tecnologias Utilizadas
+
+* ⚛️ **React.js**
+* 🌦️ **OpenWeatherMap API**
+* 📦 **Axios** (para requisições HTTP)
+* 🎨 **CSS3** (com design responsivo)
+* ☁️ **React Icons** (para representar os dados do clima)
+
+---
+
+## 🖥 Preview
+
+<img width="1440" height="786" alt="image" src="https://github.com/user-attachments/assets/3ce5ebce-7a99-4232-8a41-97c35d368adf" />
+Visualizar projeto: https://1faeell.github.io/previsao-do-tempo/
+
+---
+Este projeto é de uso livre para fins de estudo e portfólio.
+Dados meteorológicos fornecidos por [OpenWeatherMap API](https://openweathermap.org/).
